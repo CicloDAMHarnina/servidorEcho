@@ -10,6 +10,7 @@ public class EchoServer extends Thread {
 	private static final int PORT = 8889;
 
 	private EchoServer() {
+		System.out.println("server");
 	}
 
 	//Como siempre un singleton
